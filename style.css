@@ -48,8 +48,9 @@ ul a{
 }
 
 header
-{ background-image:linear-gradient(45deg, rgba(16, 3, 1, 0.75) 10%,rgba(13, 12, 12, 0.8) 56%, transparent 60%, transparent 80%), url('./assets/banner.jpg');
+{ background-image:linear-gradient(45deg, rgba(16, 3, 1, 0.75) 10%,rgba(13, 12, 12, 0.8) 57%, transparent 60%, transparent 80%), url('./assets/banner.jpg');
     height:90vh;
+    width:100%;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
