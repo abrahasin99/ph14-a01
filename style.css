@@ -5,11 +5,11 @@
 }
 
 nav{
-    display:grid;
-    grid-template-columns:auto 1fr auto;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
     background-color:white;
-    padding: 16px 80px;
+    padding: 15px 75px;
     gap: 20px;
 }
 
@@ -19,7 +19,7 @@ ul{
     justify-content: center;
     list-style: none;
     gap: 35px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 
 }
@@ -27,21 +27,14 @@ ul a{
     text-decoration: none;
     color:#575757;
 }
-.logo{
-    display:flex;
-    align-items: center;
-    height: auto;
-    width: 18px;
-    gap: 10px;
-    align-items: center;
-}
+
 .btn-banner{padding: 1rem 2.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
 .btn-nav {padding:0.7rem 2rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -55,15 +48,16 @@ ul a{
 }
 
 header
-{ background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(11, 11, 11, 0.5)),url('./assets/banner.jpg');
+{ background-image:linear-gradient(45deg, rgba(16, 3, 1, 0.75) 10%,rgba(13, 12, 12, 0.8) 56%, transparent 60%, transparent 80%), url('./assets/banner.jpg');
     height:90vh;
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:right;
+    background-position:center;
     color:white;
     display:grid;
     justify-items:center;
     align-items:center;
+    position:relative;
 }
 .banner{
     display:grid;
@@ -84,4 +78,8 @@ header
     max-width:580px;
     margin:0 auto;
     font-weight: 200;
+}
+header button {
+    align-self: end;  
+    margin-bottom: 60px;   
 }
