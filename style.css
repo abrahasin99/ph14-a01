@@ -9,7 +9,7 @@ nav{
     grid-template-columns:auto 1fr auto;
     align-items: center;
     background-color:white;
-    padding: 20px 120px;
+    padding: 16px 80px;
     gap: 20px;
 }
 
@@ -18,7 +18,7 @@ ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 30px;
+    gap: 35px;
     font-size: 16px;
     font-weight: 300;
 
@@ -30,29 +30,58 @@ ul a{
 .logo{
     display:flex;
     align-items: center;
-    height: 18px;
-    width: auto;
+    height: auto;
+    width: 18px;
     gap: 10px;
     align-items: center;
 }
+.btn-banner{padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
 
+.btn-nav {padding:0.7rem 2rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
 
 .button-style {
     display:flex;
     justify-content: flex-end;
-    padding:10px 40px;
     background-color: #1D4ED8;
-    font-size: 16px;
-    font-weight: 600;
     color: #fff;
-    border-radius:7px;
+    border-radius:8px;
     border: none;
 }
 
 header
-{ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./assets/banner.jpg');
+{ background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(11, 11, 11, 0.5)),url('./assets/banner.jpg');
     height:90vh;
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:center;
+    background-position:right;
+    color:white;
+    display:grid;
+    justify-items:center;
+    align-items:center;
+}
+.banner{
+    display:grid;
+    justify-items:center;
+    align-items:center;
+    gap:20px;
+}
+.banner h1{
+    display:grid;
+    justify-items:center;
+    align-items:center;
+    font-size: 60px;
+}
+
+.banner p{
+    text-align:center;
+    width:100%;
+    max-width:580px;
+    margin:0 auto;
+    font-weight: 200;
 }
