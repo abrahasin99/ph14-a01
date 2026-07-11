@@ -5,7 +5,7 @@
 }
 
 section{
-    padding:70px 40px 80px 120px;
+    padding:70px 40px 60px 120px;
 }
 
 nav{
@@ -18,7 +18,7 @@ nav{
 }
 
 
-ul{
+nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -27,7 +27,7 @@ ul{
     font-weight: 300;
 
 }
-ul a{
+nav ul a{
     text-decoration: none;
     color:#575757;
 }
@@ -40,6 +40,31 @@ ul a{
 .btn-nav {padding:0.7rem 2rem;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.btn-pricing{
+    padding: 0.6rem 6rem;
+    font-size:1rem;
+    font-weight:600;
+    background-color: #fff !important;
+    color: #1D4ED8 !important;
+    border:2px solid #1D4ED8 !important;
+}
+
+.btn-pro{
+    padding: 0.6rem 8rem;
+    font-size:1rem;
+    font-weight:600;
+
+}
+
+.btn-team{
+    padding: 0.6rem 7rem;
+    font-size:1rem;
+    font-weight:600;
+    background-color: #fff !important;
+    color: #080808 !important;
+    border:2px solid #444445 !important;
 }
 
 .button-style {
@@ -86,7 +111,7 @@ header
 }
 header button {
     align-self: end;  
-    margin-bottom: 60px;   
+    margin-bottom: 100px;   
 }
 
 .speakers h2{
@@ -119,4 +144,78 @@ small{
     height:auto;
     object-fit: cover;
    
+}
+
+
+#message{
+    text-align: center;
+    padding:10px;
+    color:#575757;
+    font-size:15px;
+    font-weight:400;
+}
+.pricing h1{
+    text-align:center;
+    font-size:40px;
+}
+
+.offerings {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+}
+
+.standard ul li::marker{
+    color:rgb(85, 85, 237);
+
+}
+
+.standard{
+    padding:40px 20px 40px 40px;
+    border: 1px solid rgb(205, 203, 203);
+    border-radius: 10px;
+
+}
+.standard h2,.pro h2, .team h2{
+    font-size:50px;
+
+}
+
+.standard p, .team p{
+    color:#6c6b6b;
+    font-weight: 400;
+}
+
+.pro{
+    padding:40px 20px 40px 40px;
+    border: 1px solid rgb(205, 203, 203);
+    border-radius: 10px;
+    background-color:#0D1B2A;
+}
+
+.team{
+    padding:40px 20px 40px 40px;
+    border: 1px solid rgb(205, 203, 203);
+    border-radius: 10px;
+}
+
+.team ul li::marker{
+    color:rgb(85, 85, 237);
+
+}
+
+.pro ul li::marker{
+    color:rgb(85, 85, 237);
+
+}
+
+.standard,.pro,.team{
+    display:flex;
+    flex-direction: column;
+}
+
+.standard button,.pro button,.team button{
+    margin-top: auto;
+    align-self:center;
+    margin-bottom:2px;
 }
