@@ -18,11 +18,10 @@
         <img src="./assets/logo.png" alt="logo" />
       </div>
       <ul>
-        <li><a href="">Speakers</a></li>
-        <li><a href="">Schedule</a></li>
-        <li><a href="">Tracks</a></li>
-        <li><a href="">Venue</a></li>
-        <li><a href="">Blog</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#upcoming">Upcoming Events</a></li>
+        <li><a href="#past">Past Events</a></li>
+        <li><a href="#pricing">Pricing</a></li>
       </ul>
       <button class="button-style btn-nav">Register Now</button>
     </nav>
@@ -40,7 +39,7 @@
       <button class="button-style btn-banner">Register Now</button>
     </header>
     <main>
-      <section class="speakers">
+      <section class="speakers" id="speakers">
         <h2>Meet the Speakers</h2>
         <br />
         <br />
@@ -72,7 +71,8 @@
           </div>
         </div>
       </section>
-      <section class="pricing">
+
+      <section class="pricing" id="pricing">
         <h1>Secure Your Spot</h1>
         <p id="message">Early-bird pricing ends August 15, 2026.</p>
         <br>
@@ -150,7 +150,105 @@
             <button class="button-style btn-team">Contact Us</button>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="upcoming-events" id="upcoming">
+        <h2>Upcoming Events?</h2>
+        <br />
+        <br />
+        <br />
+        <div class="upcoming-grid">
+          <div class="upcoming-card">
+            <div class="event-header">
+              <span class="event-date">SEP 24, 2026</span>
+              <span class="category-tag category-frontend">FRONTEND</span>
+            </div>
+            <h3>Next-Gen Frontend Architectures</h3>
+            <p class="event-speaker">Led by Gary Marcus — Staff Engineer, Vercel</p>
+            <p class="event-desc">
+              Deep dive into partial pre-rendering, Server Components, and the future of edge rendering paradigms.
+            </p>
+            <button class="button-style btn-upcoming">Register Now</button>
+          </div>
+          <div class="upcoming-card">
+            <div class="event-header">
+              <span class="event-date">OCT 15, 2026</span>
+              <span class="category-tag category-devops">CLOUD & DEVOPS</span>
+            </div>
+            <h3>Distributed AI Workloads</h3>
+            <p class="event-speaker">Led by Demis Hassabis — CEO, Google DeepMind</p>
+            <p class="event-desc">
+              Scale model training and inference pipelines efficiently across global multi-cloud infrastructures.
+            </p>
+            <button class="button-style btn-upcoming">Register Now</button>
+          </div>
+          <div class="upcoming-card">
+            <div class="event-header">
+              <span class="event-date">NOV 10, 2026</span>
+              <span class="category-tag category-security">SECURITY</span>
+            </div>
+            <h3>Autonomous Agents Safety Boundaries</h3>
+            <p class="event-speaker">Led by Mustafa Suleyman — CEO, Microsoft AI</p>
+            <p class="event-desc">
+              Exploring zero-trust execution sandboxes and runtime prompt-injection defense mechanisms.
+            </p>
+            <button class="button-style btn-upcoming">Register Now</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="past-events" id="past">
+        <h2>Past Events</h2>
+        <br />
+        <br />
+        <br />
+        <div class="past-list">
+          <div class="past-card">
+            <div class="past-meta">
+              <span class="past-date">MAY 12, 2025</span>
+              <span class="category-tag category-ai">AI/ML</span>
+              <h3>Andrej Karpathy</h3>
+              <p class="past-speaker-title">Pretraining team, Anthropic</p>
+            </div>
+            <div class="past-content">
+              <h4>Deconstructing Large Language Models</h4>
+              <p>
+                Dr. Karpathy discussed the mechanics of pretraining, tokenization bottlenecks, and why attention is all you need for sequence modeling. He shared practical insights on building and debugging neural networks from scratch.
+              </p>
+              <a href="#" class="btn-past-link">Read Event Recap</a>
+            </div>
+          </div>
+          <div class="past-card">
+            <div class="past-meta">
+              <span class="past-date">FEB 18, 2025</span>
+              <span class="category-tag category-ai">AI/ML</span>
+              <h3>Demis Hassabis</h3>
+              <p class="past-speaker-title">Co-Founder and CEO, Google DeepMind</p>
+            </div>
+            <div class="past-content">
+              <h4>AI-Powered Scientific Discovery</h4>
+              <p>
+                Dr. Hassabis detailed how AlphaFold 3 predicts the structures and interactions of proteins, DNA, RNA, and chemical compounds. He discussed the intersection of artificial intelligence and deep biological sciences.
+              </p>
+              <a href="#" class="btn-past-link">Read Event Recap</a>
+            </div>
+          </div>
+          <div class="past-card">
+            <div class="past-meta">
+              <span class="past-date">NOV 05, 2024</span>
+              <span class="category-tag category-frontend">FRONTEND</span>
+              <h3>Gary Marcus</h3>
+              <p class="past-speaker-title">Staff Engineer, Vercel</p>
+            </div>
+            <div class="past-content">
+              <h4>The Web is Fast: Optimization Strategies</h4>
+              <p>
+                Gary Marcus shared telemetry data from Vercel's edge network. He discussed reducing Core Web Vitals (INP, LCP) and optimizing critical rendering paths for dynamic apps.
+              </p>
+              <a href="#" class="btn-past-link">Read Event Recap</a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
