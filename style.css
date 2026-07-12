@@ -13,7 +13,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color:white;
-    padding: 15px 75px;
+    padding: 25px 75px;
     gap: 20px;
 }
 
@@ -472,4 +472,38 @@ small{
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
+}
+
+footer{
+    background-color:#0D1B2A;
+    height:auto;
+}
+
+.footer-container {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 40px;
+    height:100px;
+    
+}
+
+.social img{
+    width:32px;
+    height:32px;
+    object-fit:contain;
+    margin-left:15px;
+
+}
+
+.copyright-msg{
+    display:flex;
+    justify-content: space-between;
+    padding:40px 40px;
+
+}
+
+.left-terms{
+    display: flex;
+    gap:20px;
 }
